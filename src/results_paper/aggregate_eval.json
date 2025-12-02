@@ -1,0 +1,70 @@
+{
+  "results_root": "/Users/parthdanve/Downloads/CSE_4705_Code/DQN_CNN/src/results",
+  "match": "*_seed*",
+  "eval_episodes_per_seed": 500,
+  "seeds_included": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "groups": [
+    {
+      "group": "ours_noisy_norelabel",
+      "n_seeds": 5,
+      "success_rate_mean": 0.4,
+      "success_rate_std": 0.5477225575051662,
+      "avg_true_return_mean": 1.4839999198913574,
+      "avg_true_return_std": 1.347397381769432,
+      "avg_ep_len_mean": 31.6,
+      "avg_ep_len_std": 25.195237645237643,
+      "terminated_frac_mean": 0.4,
+      "terminated_frac_std": 0.5477225575051662,
+      "truncated_frac_mean": 0.6,
+      "truncated_frac_std": 0.5477225575051662
+    },
+    {
+      "group": "ours_noisy_relabel",
+      "n_seeds": 5,
+      "success_rate_mean": 1.0,
+      "success_rate_std": 0.0,
+      "avg_true_return_mean": 2.9599997997283936,
+      "avg_true_return_std": 0.0,
+      "avg_ep_len_mean": 4.0,
+      "avg_ep_len_std": 0.0,
+      "terminated_frac_mean": 1.0,
+      "terminated_frac_std": 0.0,
+      "truncated_frac_mean": 0.0,
+      "truncated_frac_std": 0.0
+    },
+    {
+      "group": "random",
+      "n_seeds": 5,
+      "success_rate_mean": 0.32799999713897704,
+      "success_rate_std": 0.008831763579386488,
+      "avg_true_return_mean": 1.5490119934082032,
+      "avg_true_return_std": 0.008590958930226012,
+      "avg_ep_len_mean": 42.4588005065918,
+      "avg_ep_len_std": 0.2805802611419213,
+      "terminated_frac_mean": 0.32799999713897704,
+      "terminated_frac_std": 0.008831763579386488,
+      "truncated_frac_mean": 0.679200005531311,
+      "truncated_frac_std": 0.008318659847718745
+    },
+    {
+      "group": "standard_true",
+      "n_seeds": 5,
+      "success_rate_mean": 0.8,
+      "success_rate_std": 0.4472135954999579,
+      "avg_true_return_mean": 2.267999839782715,
+      "avg_true_return_std": 1.5473589508656695,
+      "avg_ep_len_mean": 13.2,
+      "avg_ep_len_std": 20.571825392998065,
+      "terminated_frac_mean": 0.8,
+      "terminated_frac_std": 0.4472135954999579,
+      "truncated_frac_mean": 0.2,
+      "truncated_frac_std": 0.44721359549995804
+    }
+  ]
+}

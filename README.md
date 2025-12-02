@@ -15,7 +15,7 @@ We demonstrate and validate our approach using the **TomatoSafetyGrid** environm
 ## File Structure
 
 ```text
-DQN_CNN/
+DQN-CNN/
 ├── README.md
 ├── requirements.txt
 ├── pbrl.pdf

@@ -1,0 +1,70 @@
+{
+  "pref_mode": "noisy",
+  "beta": 0.2,
+  "flip_prob": 0.1,
+  "noisy_soft": true,
+  "pref_margin": 0.1,
+  "val_size": 100,
+  "rounds": [
+    {
+      "round": 1,
+      "queries": 140,
+      "val_acc": 0.79,
+      "val_bce": 0.46531322598457336
+    },
+    {
+      "round": 2,
+      "queries": 180,
+      "val_acc": 0.83,
+      "val_bce": 0.46011218428611755
+    },
+    {
+      "round": 3,
+      "queries": 220,
+      "val_acc": 0.82,
+      "val_bce": 0.4605027884244919
+    },
+    {
+      "round": 4,
+      "queries": 260,
+      "val_acc": 0.85,
+      "val_bce": 0.47938039898872375
+    },
+    {
+      "round": 5,
+      "queries": 300,
+      "val_acc": 0.83,
+      "val_bce": 0.523281455039978
+    },
+    {
+      "round": 6,
+      "queries": 340,
+      "val_acc": 0.84,
+      "val_bce": 0.48687322437763214
+    },
+    {
+      "round": 7,
+      "queries": 380,
+      "val_acc": 0.84,
+      "val_bce": 0.42924168705940247
+    },
+    {
+      "round": 8,
+      "queries": 420,
+      "val_acc": 0.84,
+      "val_bce": 0.4241272956132889
+    },
+    {
+      "round": 9,
+      "queries": 460,
+      "val_acc": 0.85,
+      "val_bce": 0.41742323338985443
+    },
+    {
+      "round": 10,
+      "queries": 500,
+      "val_acc": 0.85,
+      "val_bce": 0.4006612002849579
+    }
+  ]
+}
