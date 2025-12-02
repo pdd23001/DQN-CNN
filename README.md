@@ -44,7 +44,13 @@ DQN-CNN/
 
 ## Setup
 
-1.  **Create a Virtual Environment** (Recommended):
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/pdd23001/DQN-CNN.git
+    cd DQN-CNN
+    ```
+
+2.  **Create a Virtual Environment** (Recommended):
     
     **Option A: Using `venv`**:
     ```bash
@@ -58,7 +64,7 @@ DQN-CNN/
     conda activate pbrl
     ```
 
-2.  **Install Dependencies**:
+3.  **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
